@@ -1,34 +1,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee&family=Josefin+Sans&family=Merriweather:wght@900&family=Mochiy+Pop+One&family=Montserrat:wght@400;700&family=Orbitron:wght@400;500&family=Passion+One&family=Roboto&family=Sansita+Swashed:wght@300;400;504;600&family=Secular+One&family=Source+Sans+Pro&family=Squada+One&display=swap");
+
 body {
   margin: 0;
   font-family: "Josefin Sans", sans-serif;
   background-color: #fdfeff;
 }
+
 .container1 {
   padding: 0 10%;
 }
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   margin-top: 30px;
 }
+
 .logo img {
   height: 35px;
 }
+
 .list-items {
   display: flex;
   margin-left: 290px;
 }
+
 .list-item {
   list-style-type: none;
   margin-left: 40px;
   color: #8d8d8d;
 }
+
 .home {
   color: #000;
   font-weight: 600;
 }
+
 .btn1 button {
   padding: 9px 18px;
   border-radius: 5px;
@@ -38,21 +50,30 @@ nav {
   font-weight: 600;
   background-color: transparent;
 }
+
+/* ------------------------------ */
+/* ---------- section 1 ------------ */
+/* ------------------------------ */
 .subcontainer1 {
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
+
 .content1 {
   width: 515px;
 }
+
 .content1 h1 {
   font-size: 50px;
 }
+
 .content1 p {
   line-height: 23px;
   color: #8d8d8d;
 }
+
 .content1 button {
   margin-top: 15px;
   padding: 12px 15px;
@@ -63,28 +84,38 @@ nav {
   font-weight: 600;
   box-shadow: 0px 2px 5px #0b3b5b;
 }
+
 .img1 img {
   width: 500px;
 }
 
+/* ------------------------------ */
+/* ---------- section2 ------------ */
+/* ------------------------------ */
 .subcontainer2 {
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
+
 .img2 img {
   width: 500px;
 }
+
 .content2 {
   width: 520px;
 }
+
 .content2 h1 {
   font-size: 50px;
 }
+
 .content2 p {
   line-height: 23px;
   color: #8d8d8d;
 }
+
 .content2 button {
   margin-top: 15px;
   padding: 12px 35px;
@@ -96,25 +127,34 @@ nav {
   box-shadow: 0px 2px 5px #0b3b5b;
 }
 
+/* ------------------------------ */
+/* ---------- section3 ------------ */
+/* ------------------------------ */
 .subcontainer3 {
   display: flex;
   margin-top: 80px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
+
 .img3 img {
   width: 500px;
 }
+
 .content3 {
   width: 540px;
   margin-top: 80px;
 }
+
 .content3 p {
   line-height: 23px;
   color: #8d8d8d;
 }
+
 .content3 h1 {
   font-size: 50px;
 }
+
 .content3 button {
   margin-top: 15px;
   padding: 12px 35px;
@@ -126,19 +166,26 @@ nav {
   box-shadow: 0px 2px 5px #0b3b5b;
 }
 
+/* ------------------------------ */
+/* ---------- section4 ------------ */
+/* ------------------------------ */
 .subcontainer4 {
   margin-top: 100px;
 }
+
 .services {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
+
 .services h1 {
   width: 500px;
 
   font-size: 50px;
 }
+
 .services p {
   width: 550px;
   line-height: 23px;
@@ -149,22 +196,31 @@ nav {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
+
 .services4 {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
+
 .card img {
   height: 40px;
 }
+
 .card {
   width: 300px;
 }
+
 .card p {
   color: #8d8d8d;
 }
 
+/* ------------------------------ */
+/* ---------- secttion5 ------------ */
+/* ------------------------------ */
 .subcontainer5 {
   margin-top: 100px;
   border: 1px solid #000;
@@ -176,19 +232,23 @@ nav {
     hsla(216, 97%, 47%, 1) 100%
   );
 }
+
 .flexible {
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
 }
+
 .flexible h1 {
   font-size: 40px;
   color: #ffffff;
 }
+
 .packages {
   padding: 0 10%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .package1 button {
@@ -213,6 +273,7 @@ nav {
   width: 350px;
   height: 590px;
 }
+
 .package123 button {
   margin-top: 15px;
 }
@@ -236,62 +297,82 @@ nav {
   font-weight: 600;
   background-color: transparent;
 }
+
 h3 span {
   color: #8d8d8d;
 }
+
 .packages-heading {
   line-height: 10px;
 }
+
 .packages-heading h3 {
   font-size: 30px;
   margin-left: 10px;
 }
+
 .packages-heading p {
   margin-left: 10px;
 }
+
 .heading2 {
   background-color: #353535;
   padding: 10px 0px;
   border-radius: 10px;
   color: #ffffff;
 }
+
 .packages-content {
   padding-left: 70px;
 }
+
 .packages-content li {
   list-style-type: none;
 }
+
 .packages-rate {
   text-align: center;
 }
+
 .packages-rate h3 {
   font-size: 30px;
 }
 
+/* ------------------------------ */
+/* ---------- section6 ------------ */
+/* ------------------------------ */
 .container2 {
   padding: 0 10%;
 }
+
 .subcontainer6 {
   margin-top: 100px;
 }
+
 .customer-reviews {
   text-align: center;
   width: 500px;
   margin: auto;
 }
+
 .customer-reviews p {
   color: #8d8d8d;
 }
+
 .reviews1 {
   display: flex;
   justify-content: space-between;
   margin-top: 70px;
+  flex-wrap: wrap;
 }
+
 .review2 {
   display: flex;
   justify-content: space-between;
   margin-top: 25px;
+  flex-wrap: wrap;
 }
+
 .dot {
   width: 60px;
   color: #000;
@@ -300,6 +381,7 @@ h3 span {
   border-radius: 50%;
   display: inline-block;
 }
+
 .view {
   width: 500px;
   background-color: #ffffff;
@@ -308,34 +390,45 @@ h3 span {
   color: #1e1b1b;
   box-shadow: 0px 0px 5px #d9d9d9;
 }
+
 .view h4 {
   color: #000;
 }
+
 .view p {
   line-height: 25px;
 }
+
 .founder {
   margin-left: 70px;
 }
+
 .founder span {
   position: relative;
   right: 75px;
   top: 80px;
 }
+
+/* ------------------------------ */
+/* ---------- section7 ------------ */
+/* ------------------------------ */
 .subcontainer7 {
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background:linear-gradient(140deg,#3bb0ff , #0684ef );
+  flex-wrap: wrap;
+  background: linear-gradient(140deg, #3bb0ff, #0684ef);
   height: 300px;
   padding: 0 10%;
 }
+
 .content4 {
   width: 400px;
   color: #ffffff;
   line-height: 25px;
 }
+
 .btn2 button {
   padding: 12px 25px;
   border-radius: 5px;
@@ -345,26 +438,35 @@ h3 span {
   font-weight: 600;
   background-color: transparent;
 }
+
 .content4 h2 {
   font-size: 40px;
   line-height: 50px;
 }
+
+/* ------------------------------ */
+/* ---------- footer ------------ */
+/* ------------------------------ */
 .footer {
   margin-top: 100px;
   justify-content: space-between;
   display: flex;
+  flex-wrap: wrap;
   padding: 0 10%;
   margin-bottom: 70px;
   color: #8d8d8d;
 }
+
 .logo2 {
   width: 350px;
   line-height: 18px;
 }
+
 .end-nav {
   line-height: 35px;
   list-style-type: none;
 }
+
 .bold {
   color: #000;
   font-size: 20px;
@@ -374,4 +476,79 @@ h3 span {
 .social img {
   margin-top: 20px;
   height: 30px;
+}
+
+.hamburger {
+  visibility: collapse;
+}
+
+/* ------------------------------ */
+/* ---------- media queries ------------ */
+/* ------------------------------ */
+@media screen and (max-width: 600px) {
+  .list-items {
+    visibility: hidden;
+  }
+
+  .btn1 {
+    visibility: hidden;
+  }
+
+  .hamburger img {
+    visibility: visible;
+    width: 40px;
+  }
+
+  .img1 img {
+    margin-top: 40px;
+    width: 300px;
+  }
+
+  .subcontainer2 {
+    flex-direction: column-reverse;
+  }
+
+  .img2 img {
+    width: 300px;
+  }
+
+  .content2 {
+    width: auto;
+  }
+
+  .img3 img {
+    width: 300px;
+  }
+
+  .content3 {
+    width: auto;
+  }
+
+  .services h1,
+  p {
+    width: auto;
+  }
+
+  .subcontainer5 {
+    height: auto;
+    width: auto;
+    padding: 40px 0;
+  }
+
+  .package123 {
+    margin-top: 10px;
+  }
+
+  .view {
+    margin-top: 20px;
+  }
+
+  .subcontainer7 {
+    height: auto;
+    padding: 20px 40px;
+  }
+
+  .customer-reviews {
+    width: auto;
+  }
 }
